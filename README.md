@@ -2,7 +2,8 @@
 
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
-[![dependencies](https://david-dm.org/greenpioneersolutions/serial-loop.svg)](https://david-dm.org/greenpioneersolutions/serial-loop)
+[![Dependency Status](https://david-dm.org/greenpioneersolutions/serial-loop.svg)](https://david-dm.org/greenpioneersolutions/serial-loop)
+[![devDependency Status](https://david-dm.org/greenpioneersolutions/serial-loop/dev-status.svg)](https://david-dm.org/greenpioneersolutions/serial-loop#info=devDependencies)
 [![npm-issues](https://img.shields.io/github/issues/greenpioneersolutions/serial-loop.svg)](https://github.com/greenpioneersolutions/serial-loop/issues)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![Build Status](https://travis-ci.org/greenpioneersolutions/serial-loop.svg?branch=master)](https://travis-ci.org/greenpioneersolutions/serial-loop)
