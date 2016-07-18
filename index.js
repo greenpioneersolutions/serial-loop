@@ -1,6 +1,4 @@
-module.exports = start
-
-function start (len, each, callback) {
+module.exports = function (len, each, callback) {
   len === 0 ? callback() : loop(0)
   function loop (i) {
     each(function next (error) {
