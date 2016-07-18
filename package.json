@@ -1,0 +1,65 @@
+{
+  "name": "serial-loop",
+  "version": "3.0.0",
+  "description": "Async serial loop",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run mocha && npm run standard",
+    "mocha": "node node_modules/mocha/bin/mocha test/test.js  ",
+    "standard": "node node_modules/standard/bin/cmd.js || standard"
+  },
+  "standard": {
+    "globals": [
+      "angular",
+      "toastr",
+      "moment",
+      "self",
+      "_",
+      "describe",
+      "it",
+      "__dirname",
+      "localStorage",
+      "io",
+      "expect",
+      "inject",
+      "before"
+    ]
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "standard": "^5.3.1",
+    "supertest": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://greenpioneer@github.com/greenpioneersolutions/serial-loop.git"
+  },
+  "contributors": [
+    {
+      "name": "greenpioneersolutions",
+      "email": "green@greenpioneersolutions.com",
+      "web": "https://github.com/greenpioneersolutions"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "greenpioneersolutions",
+      "web": "https://github.com/greenpioneersolutions?tab=members"
+    }
+  ],
+  "keywords": [
+    "serial",
+    "loop",
+    "greenpioneersolutions"
+  ],
+  "author": "GreenPioneer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greenpioneersolutions/serial-loop/issues"
+  },
+  "homepage": "https://github.com/greenpioneersolutions/serial-loop#readme"
+}
